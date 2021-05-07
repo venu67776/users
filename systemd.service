@@ -4,7 +4,7 @@ Description=user service
 [Service]
 
 Environment=AUTH_API_PORT=8080
-ExecStart=/bin/java -jar /home/ubuntu/users/target/users.jar 
+ExecStart=/bin/java -jar /home/ubuntu/users/users.jar 
 
 SyslogIdentifier=user
 
