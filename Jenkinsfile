@@ -1,6 +1,6 @@
-@Library('todoapp') _
+@Library('todo') _
 
-todoapp (
+todo (
         COMPONENT             : 'users',
         PROJECT_NAME          : "todo",
         SLAVE_LABEL           : "MASTER",
