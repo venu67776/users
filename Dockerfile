@@ -7,4 +7,4 @@ RUN         mvn package
 
 FROM        openjdk:8-jre-slim
 COPY        --from=BUILD /app/target/users-api-0.0.1.jar users.jar
-CMD         ["java", "-Xmx2048m", "-jar", "users.jar"]
+CMD         ["java",  "-jar", "users.jar"]
